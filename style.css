@@ -67,8 +67,8 @@ ul {
 .container button {
     background-color: #3882f6;
     color: white;
-    border-style: solid;
-    border-color: #3882f6;
+    font-weight: bold;
+    border: none;
     border-radius: 5px;
     padding: 5px 30px;
 }
@@ -76,4 +76,35 @@ ul {
 button {
     background-color: #3882f6;
     color: white;
+}
+
+/*
+.images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+}
+
+*/
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+  }
+  
+.content {
+    max-width: 200px;
+    gap: 52px;
+}
+
+.images h4 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
