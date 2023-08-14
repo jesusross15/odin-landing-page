@@ -71,11 +71,6 @@ ul {
     padding: 5px 30px;
 }
 
-button {
-    background-color: #3882f6;
-    color: white;
-}
-
 .images h4 {
     font-size: 36px;
     font-weight: bolder;
@@ -114,10 +109,42 @@ button {
 
 .quote p {
     font-size: 36px;
-    font-style: light italic;
+    font-style: oblique;
     text-align: left;
+    color: #1F2937;
 }
 
 .quote h4 {
     text-align: right;
+}
+
+.signup {
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 50px;
+    margin: 100px 200px;
+    align-items: center;
+}
+
+
+.signup h4 {
+    color: white;
+    margin-bottom: 0;
+}
+
+.signup p {
+    color: white;
+    margin-top: 0;
+}
+
+.signup button {
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    border: solid;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+    padding: 5px 30px;
 }
