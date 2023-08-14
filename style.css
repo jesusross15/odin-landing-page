@@ -78,33 +78,30 @@ button {
     color: white;
 }
 
-/*
+.images h4 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.images img {
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-width: 2px;
+}
 .images {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
-.content {
+.box {
     display: flex;
-}
-
-*/
-
-.images {
-    display: flex;
-    justify-content: center;
-    gap: 52px;
-  }
-  
-.content {
-    max-width: 200px;
     gap: 52px;
 }
-
-.images h4 {
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1F2937;
+.content {
+    max-width: 150px;
+    gap: 52px;
+    text-align: center;
 }
