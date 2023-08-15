@@ -34,6 +34,10 @@ ul {
     gap: 20px;
 }
 
+a:hover {
+    color: #3882f6;
+}
+
 .hero {
     background-color: #1F2937;  
     padding: 50px 200px;
@@ -81,8 +85,9 @@ ul {
     border-radius: 8px;
     border-style: solid;
     border-color: #3882f6;
-    border-width: 2px;
+    border-width: 4px;
 }
+
 .images {
     display: flex;
     flex-direction: column;
@@ -128,7 +133,6 @@ ul {
     align-items: center;
 }
 
-
 .signup h4 {
     color: white;
     margin-bottom: 0;
@@ -149,12 +153,16 @@ ul {
     padding: 5px 30px;
 }
 
+button:hover {
+    background-color: antiquewhite;
+}
+
 .footer {
     background-color: #1F2937;
     color: #e5e7eb;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
